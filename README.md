@@ -1,5 +1,9 @@
 # mall
-
+# git创建仓库操作，本地和远程第一次连接的操作
+# git remote add origin /path/to/origin.git
+# git add .
+# git commit -m "initial commit"
+# git push origin master
 ## Project setup
 ```
 npm install
