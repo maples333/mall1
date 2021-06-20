@@ -1,5 +1,5 @@
 <template>
-  <tar-bar>
+  <tar-bar class="tab-bar">
     <tar-bar-item path="/home" >
       <!--dom 中使用路径需要用 ~ 来识别配置的别名-->
       <img slot="item-icon" src="~assets/images/tabbar/home.svg" alt="">
@@ -37,5 +37,7 @@
 </script>
 
 <style scoped>
-
+.tab-bar{
+  z-index: 11;
+}
 </style>

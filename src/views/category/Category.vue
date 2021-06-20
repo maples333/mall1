@@ -1,20 +1,130 @@
 <template>
   <div>
-    category
+    <Scroll class="content">
+      <ul>
+        <li>ccccccc</li>
+        <li>ccccccc</li>
+        <li>ccccccc</li>
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+<!--        <li>ccccccc</li>-->
+      </ul>
+    </Scroll>
   </div>
 </template>
 
 <script>
+import Scroll from "../../components/common/scroll/Scroll";
 export default {
   data() {
-    return {}
+    return {
+    }
   },
-  created() {
+  mounted() {
   },
-  methods: {}
+  methods: {},
+  components:{
+    Scroll
+  }
 }
 </script>
 
-<style>
-
+<style scoped>
+.content{
+  height: 300px;
+  overflow: hidden;
+}
 </style>
