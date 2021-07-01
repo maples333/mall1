@@ -1,9 +1,14 @@
 <template>
   <div id="app">
+<!--
+  用了keep-alive 可以让元素一直存在而不被销毁，也就是当比如从首页跳到分类等别的页面，再返回首页的时候，还是停留在首页离开的地方
+  -->
+    <keep-alive><router-view/></keep-alive>
+<!--    <router-view/>-->
     <div id="nav">
       <MainTarBar></MainTarBar>
     </div>
-    <router-view/>
+
 
 
   </div>

@@ -3,7 +3,8 @@
     <Swiper>
       <SwiperItem v-for="(item,index) in banner" :key="index">
         <a :href="item.link">
-          <img :src="item.image">
+<!--    load  监听图片加载完成      -->
+          <img :src="item.image" @load="imageLoad">
         </a>
       </SwiperItem>
     </Swiper>
@@ -12,26 +13,35 @@
 
 <script>
 import {Swiper, SwiperItem} from "../../../components/common/swiper/index"
+
 export default {
   data() {
     return {
+      isImageLoad: false
     }
   },
-  props:{
-    banner:{
-      type:Array,
+  props: {
+    banner: {
+      type: Array,
       default() {
         return []
       }
     }
   },
-  components:{
+  components: {
     SwiperItem,
     Swiper
   },
   created() {
   },
-  methods: {}
+  methods: {
+    imageLoad() {
+      if (!this.isImageLoad) {
+        this.$emit('swiperImageLoad')
+        this.isImageLoad = !this.isImageLoad
+      }
+    }
+  }
 }
 </script>
 
