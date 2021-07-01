@@ -29,7 +29,7 @@ const routes = [
     path: '/cart',
     component: Cart
   }, {
-    path: '/detail',
+    path: '/detail/:iid',
     component: Detail
   },
 ]
